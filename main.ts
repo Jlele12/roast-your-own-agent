@@ -3,7 +3,7 @@ import { writeFileSync, mkdirSync } from "node:fs";
 
 mkdirSync("/output", { recursive: true });
 
-const roast = "Hermes plans in three tool calls, ships on the fourth, and still needs a subagent to remember why it opened the file.";
+const roast = "Hermes hires subagents for everything, then compacts their work so lossy its final report is itself the roast this contest asked for.";
 
 writeFileSync("/output/entry.txt", roast);
 console.log(roast);
